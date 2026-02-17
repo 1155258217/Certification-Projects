@@ -1,0 +1,6 @@
+file_name <- readline('File to test: ')
+file <- read.csv(file_name)
+print(nrow(file))
+print(min(file$time))
+print(max(file$time))
+print(sum(file$time))
